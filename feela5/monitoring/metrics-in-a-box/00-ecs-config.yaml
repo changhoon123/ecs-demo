@@ -8,5 +8,5 @@ spec:
     enabled: true
     metrics-sink:
 # Edit the below URL to provide the worker node IP address
-      url: "http://localhost:30777/api/v1/write"
+      url: "http://10.10.142.25:30777/api/v1/write"
       data-format: "prometheusremotewrite"
