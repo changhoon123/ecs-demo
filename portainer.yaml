@@ -51,6 +51,7 @@ spec:
       protocol: TCP
       port: 9000
       targetPort: 9000
+      nodePort: 30262
     - name: edge
       protocol: TCP
       port: 8000
