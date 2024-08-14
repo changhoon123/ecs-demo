@@ -45,7 +45,7 @@ data:
             eth0:
                 dhcp: "false"
                 addresses:
-                    - 10.10.142.22/24
+                    - 10.10.142.23/24
                 nameservers:
                     addresses:
                         - 10.10.0.10
