@@ -1,23 +1,23 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: CV-app
+  name: cv-app
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: CV-app
-  namespace: CV-app
+  name: cv-app
+  namespace: cv-app
 spec:
   selector:
     matchLabels:
-      app: CV-app
+      app: cv-app
   replicas: 1
   template:
     metadata:
-      name: CV-app
+      name: cv-app
       labels:
-        app: CV-app
+        app: cv-app
     spec:
       containers:
       - name: nginx
@@ -28,8 +28,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: CV-app
-  namespace: CV-app
+  name: cv-app
+  namespace: cv-app
 spec:
   type: NodePort
   selector:
