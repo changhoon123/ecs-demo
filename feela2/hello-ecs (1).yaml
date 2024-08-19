@@ -35,7 +35,7 @@ spec:
   type: LoadBalancer
   loadBalancerIP: 10.10.142.34
   ports:
-  - port: 30665      # Port exposed within the cluster
+  - port: 30666      # Port exposed within the cluster
     targetPort: 30666  # Port on the pods
 #    nodePort: 30099   # Port accessible externally on each node
   selector:
