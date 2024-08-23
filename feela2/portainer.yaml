@@ -77,7 +77,7 @@ spec:
       serviceAccountName: portainer-sa-clusteradmin
       containers:
       - name: portainer
-        image: "portainer/portainer-ce:2.20.3"
+        image: docker.io/changhoon123/chsong:portainer
         imagePullPolicy: Always
         ports:
         - containerPort: 9000
