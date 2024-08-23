@@ -22,8 +22,8 @@ spec:
     ethernetCardType: "vmxnet3"
     
   configSpec:
-  _typeName: VirtualMachineConfigSpec
-  version: 21
+  #_typeName: VirtualMachineConfigSpec
+  #version: 21
   datastoreUrl:
     name: datastore1
     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
