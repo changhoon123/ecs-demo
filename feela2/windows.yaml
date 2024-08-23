@@ -7,9 +7,14 @@ metadata:
   annotations:
     vmoperator.vmware.com/image-supported-check: disable
 spec:
+ _typeName: VirtualMachineConfigSpec
+    version: 21
+    datastoreUrl:
+      name: datastore1
+      url: /vmfs/volumes/6671a2db-004448b5-265b-48210b361c4b
   className: best-effort-xsmall
   #http or https location of OVA without the prefix:
-  imageName: 10.10.142.100/nas1/tinywin.ova
+  imageName: tinywin.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
