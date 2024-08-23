@@ -9,7 +9,7 @@ metadata:
 spec:
   className: best-effort-xsmall
   #http or https location of OVA without the prefix:
-  imageName: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757/tinywin.ova
+  imageName: "/vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757/tinywin.ova"
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
