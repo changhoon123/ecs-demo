@@ -9,7 +9,7 @@ metadata:
 spec:
   className: best-effort-xsmall
   #http or https location of OVA without the prefix:
-  imageName: tinywin.ova
+  imageName: 10.10.142.12/tinywin.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
