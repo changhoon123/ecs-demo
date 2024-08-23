@@ -15,15 +15,14 @@ spec:
  #     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
   #className: best-effort-xsmall
   #http or https location of OVA without the prefix:
-  imageName: tinywin.ova
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
-    
   configSpec:
-  #_typeName: VirtualMachineConfigSpec
-  #version: 21
+    _typeName: VirtualMachineConfigSpec
+    version: 21
   datastoreUrl:
     name: datastore1
     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
+    imageName: tinywin.ova
