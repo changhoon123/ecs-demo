@@ -14,6 +14,7 @@ spec:
 #      name: datastore1
  #     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
   className: best-effort-xsmall
+  imageName: tinywin.ova
   #http or https location of OVA without the prefix:
   powerState: poweredOn
   networkInterfaces:
@@ -25,4 +26,4 @@ spec:
     datastoreUrl:
       name: datastore1
       url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
-  imageName: tinywin.ova
+  
