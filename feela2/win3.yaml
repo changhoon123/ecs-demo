@@ -25,4 +25,4 @@ spec:
   datastoreUrl:
     name: datastore1
     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
-    imageName: tinywin.ova
+  imageName: tinywin.ova
