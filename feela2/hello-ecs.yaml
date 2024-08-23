@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: nginx-helloworld
-        image: docker.io/changhoon123/chsong:hello
+        image: "docker.io/changhoon123/chsong:hello-ecs"
         ports:
         - containerPort: 80
 ---
