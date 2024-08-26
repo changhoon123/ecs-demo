@@ -14,16 +14,11 @@ spec:
 #      name: datastore1
  #     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
   className: best-effort-xsmall
-  imageName: tinywin.ova
+  imageName: 10.10.142.100/nas1/tinywin.ova
   #http or https location of OVA without the prefix:
   powerState: poweredOn
   networkInterfaces:
   - networkName: "VM Network"
     ethernetCardType: "vmxnet3"
-  configSpec:
-    _typeName: VirtualMachineConfigSpec
-    version: 21
-    datastoreUrl:
-      name: datastore1
-      url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
+   
   
