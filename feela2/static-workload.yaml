@@ -13,7 +13,7 @@ spec:
   controllerName: vmoperator.vmware.com/ecworker
   hardware:
     cpus: 6
-    memory: 12Gi
+    memory: 14Gi
 ---
 apiVersion: v1
 kind: Namespace
