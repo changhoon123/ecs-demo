@@ -1,0 +1,24 @@
+#Example of pre-built Windows VM built in fusion and deployed to the Edge
+#local web-server를 이용하여, windows를 배포함..웹서버는 nginx임
+apiVersion: vmoperator.vmware.com/v1alpha1
+kind: VirtualMachine
+metadata:
+  name: winvm3
+  namespace: default
+  annotations:
+    vmoperator.vmware.com/image-supported-check: disable
+spec:
+#  configSpec:
+#    _typeName: VirtualMachineConfigSpec
+#    version: 21
+#    datastoreUrl:
+#      name: datastore1
+ #     url: /vmfs/volumes/66b2ca85-8d638f12-201c-0050569e0757
+  className: best-effort-xsmall
+  imageName: 10.10.142.12/nas1/tinywin.ova
+  #http or https location of OVA without the prefix:
+  powerState: poweredOn
+  networkInterfaces:
+  - networkName: "VM Network"
+    ethernetCardType: "vmxnet3"
+   
