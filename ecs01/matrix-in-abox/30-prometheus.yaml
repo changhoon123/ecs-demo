@@ -1,3 +1,4 @@
+#image가 업데이트되어서, 예전 스크립트에서 아래 스크립트로 업데이트 함
 apiVersion: v1
 kind: ServiceAccount
 metadata:
