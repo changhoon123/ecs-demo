@@ -33,23 +33,3 @@ spec:
     transport: CloudInit
     configMapName: worker-config
 ---
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: worker-config
-  namespace: ec-system
-data:
-  networkconfig: |
-        version: 2
-        ethernets:
-            eth0:
-                dhcp: "true"
-#                addresses:
-#                    - 10.10.142.22/24
-#                nameservers:
-#                    addresses:
-#                        - 10.10.0.10
-#                        - 8.8.8.8
-#                routes:
-#                    - to: 0.0.0.0/0
-#                      via: 10.10.142.1 
