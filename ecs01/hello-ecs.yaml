@@ -14,7 +14,7 @@ spec:
   selector:
     matchLabels:
       app: nginx-hello-ecs
-  replicas: 3 # tells deployment to run 1 pod matching the template
+  replicas: 1 # tells deployment to run 1 pod matching the template
   template:
     metadata:
       labels:
