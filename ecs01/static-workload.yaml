@@ -12,8 +12,8 @@ spec:
   # needed capabilities to deploy ec worker vm.
   controllerName: vmoperator.vmware.com/ecworker
   hardware:
-    cpus: 8
-    memory: 16Gi
+    cpus: 16
+    memory: 32Gi
 ---
 apiVersion: v1
 kind: Namespace
